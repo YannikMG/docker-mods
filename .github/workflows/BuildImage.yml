@@ -3,7 +3,7 @@ name: Build Image
 on: [push, pull_request, workflow_dispatch]
 
 env:
-  ENDPOINT: "YannikMG/mods" #don't modify
+  ENDPOINT: "yannikmg/mods" #don't modify
   BASEIMAGE: "code-server" #replace
   MODNAME: "java17" #replace
 
